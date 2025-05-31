@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CSK Fan Hub | IPL 2025</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <header class="hero">
+    <img src="https://logodix.com/logo/1723734.png" alt="CSK Logo" class="team-logo" />
+    <h1>Welcome to Chennai Super Kings Fan Hub!</h1>
+    <p>Match updates, player profiles, fan polls & more!</p>
+  </header>
+
+  <nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#players">Players</a>
+    <a href="#stats">Team Stats</a>
+    <a href="#live">Live Scores</a>
+    <a href="#news">News</a>
+    <a href="#poll">Poll</a>
+    <a href="#contact">Contact</a>
+    
+    <!-- Dark Mode Toggle -->
+    <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
+  </nav>
+  
+
+  <main>
+    <section id="about" class="content-section">
+      <h2>About the Team</h2>
+      <p>
+        Chennai Super Kings (CSK) is one of IPL's most successful franchises,
+        led by the legendary MS Dhoni. Known for their strong fan base,
+        consistent performance, and thrilling cricket since 2008.
+      </p>
+      <p>
+        CSK has won the IPL title 4 times (2010, 2011, 2018, 2023) and is
+        famous for its never-say-die attitude.
+      </p>
+    </section>
+
+    <section id="schedule" class="content-section">
+      <h2>Upcoming Matches</h2>
+      <table>
+        <thead>
+          <tr><th>Date</th><th>Opponent</th><th>Venue</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>March 31, 2025</td><td>RCB</td><td>Chennai</td></tr>
+          <tr><td>April 5, 2025</td><td>MI</td><td>Mumbai</td></tr>
+          <tr><td>April 10, 2025</td><td>KKR</td><td>Kolkata</td></tr>
+          <tr><td>April 15, 2025</td><td>SRH</td><td>Chennai</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="players" class="content-section">
+      <h2>Our Star Players</h2>
+      <div class="players-grid">
+        <div class="player-card" tabindex="0">
+          <img src="https://parimatchnews.com/wp-content/uploads/2020/11/MS-Dohni.png" alt="MS Dhoni" />
+          <h3>MS Dhoni</h3>
+          <p>Wicketkeeper Batsman | Captain Cool</p>
+          <p><strong>Matches:</strong> 204 | <strong>Runs:</strong> 4632 | <strong>Average:</strong> 40.2</p>
+        </div>
+        <div class="player-card" tabindex="0">
+          <img src="https://documents.iplt20.com/ipl/IPLHeadshot2024/102.png" alt="Ruturaj Gaikwad" />
+          <h3>Ruturaj Gaikwad</h3>
+          <p>Opening Batsman | Future Star</p>
+          <p><strong>Matches:</strong> 52 | <strong>Runs:</strong> 1745 | <strong>Average:</strong> 35.4</p>
+        </div>
+        <div class="player-card" tabindex="0">
+          <img src="https://www.iplbetonline.in/wp-content/uploads/2023/04/91.png" alt="Deepak Chahar" />
+          <h3>Deepak Chahar</h3>
+          <p>Right-arm Medium-fast Bowler</p>
+          <p><strong>Matches:</strong> 70 | <strong>Wickets:</strong> 89 | <strong>Economy:</strong> 7.3</p>
+        </div>
+        <div class="player-card" tabindex="0">
+          <img src="https://th.bing.com/th/id/R.85b7e5bac776cf55dffa8d52e0100549?rik=HlgXy4xgD9dwVw&riu=http%3a%2f%2fscoop360.in%2fstorage%2f2023%2f11%2f46.png&ehk=jqeIkdaz95%2bkC5iPF4m3nedYD2SIAQ%2f18zXJDiu7mp8%3d&risl=&pid=ImgRaw&r=0" alt="Ravindra Jadeja" />
+          <h3>Ravindra Jadeja</h3>
+          <p>All-rounder | Left-arm Spinner</p>
+          <p><strong>Matches:</strong> 150 | <strong>Runs:</strong> 2332 | <strong>Wickets:</strong> 113</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="stats" class="content-section">
+      <h2>Team Statistics</h2>
+      <ul class="stats-list">
+        <li>IPL Titles Won: 4</li>
+        <li>Total Matches Played: 200+</li>
+        <li>Win Percentage: 60%</li>
+        <li>Highest Team Score: 246/5 vs RCB (2010)</li>
+        <li>Most Runs by Player: Suresh Raina (5528)</li>
+        <li>Most Wickets by Player: Dwayne Bravo (169)</li>
+      </ul>
+    </section>
+
+    <section id="live" class="content-section">
+      <h2>Live Match Scores</h2>
+      <p class="live-placeholder">No live match currently. Stay tuned for updates!</p>
+    </section>
+
+    <section id="news" class="content-section">
+      <h2>Latest News</h2>
+      <ul>
+        <li>CSK signs a new international pacer for 2025 season!</li>
+        <li>MS Dhoni hints this could be his final IPL appearance.</li>
+        <li>Ruturaj Gaikwad returns from injury for crucial matches.</li>
+        <li>CSK unveils new jersey design for 2025 season.</li>
+      </ul>
+    </section>
+
+    <section id="poll" class="content-section">
+      <h2>Fan Poll</h2>
+      <p>Who is your favorite CSK player this season?</p>
+      <div class="poll-buttons">
+        <button onclick="vote('MS Dhoni')">MS Dhoni</button>
+        <button onclick="vote('Ruturaj Gaikwad')">Ruturaj Gaikwad</button>
+        <button onclick="vote('Deepak Chahar')">Deepak Chahar</button>
+        <button onclick="vote('Ravindra Jadeja')">Ravindra Jadeja</button>
+      </div>
+      <p id="poll-result">Total Votes: 0</p>
+      <ul id="poll-breakdown"></ul>
+    </section>
+
+    <section id="contact" class="content-section">
+      <h2>Contact Us / Fan Messages</h2>
+      <form id="contact-form" onsubmit="submitForm(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+      <div id="messages"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 CSK Fan Hub. Developed by Harini V.</p>
+      <div class="social-links">
+        <a href="https://twitter.com/ChennaiIPL" target="_blank" rel="noopener noreferrer">Twitter</a> |
+        <a href="https://www.facebook.com/ChennaiIPL" target="_blank" rel="noopener noreferrer">Facebook</a> |
+        <a href="https://www.instagram.com/chennaiipl" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
