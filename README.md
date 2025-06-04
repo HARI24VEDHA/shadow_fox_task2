@@ -1,7 +1,5 @@
 # CSK Fan Hub - IPL 2025
 
-![CSK Logo](https://logodix.com/logo/1723734.png)
-
 A responsive fan website for Chennai Super Kings cricket team with interactive features for IPL 2025 season.
 
 ## Features
@@ -55,6 +53,11 @@ The website adapts to:
 - Add player comparison feature
 - Implement user authentication for polls
 - Add merchandise section
+
+## Credits
+
+Developed by Harini V.  
+Player images from public sources.
 
 ## License
 
